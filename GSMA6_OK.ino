@@ -46,7 +46,7 @@ void setup()
   updateSerial();
   delay(3000);
   Serial.println("Saisie du numéro de Téléphone "); 
-  //Serial.println("AT+CMGS=\"+33612542988\"");
+  //Serial.println("AT+CMGS=\"+33xxxxxxxxxx\"");
   A6GSM.println("AT+CMGS=\"+336xxxxxxxx\"");//change ZZ with country code and xx xx xx xx xxx with phone number to sms
  A6GSM.println("AT+CMGS=\"+336xxxxxxxx\"");//change ZZ with country code and xx xx xx xx xxx with phone number to sms
   updateSerial();
